@@ -4,7 +4,7 @@
 
 FROM ubuntu:14.04.2
 
-ENV OPENSSL_VERSION openssl-1.0.2c
+ENV OPENSSL_VERSION openssl-1.0.2d
 ENV OPENSSL_DOWNLOAD_LINK https://www.openssl.org/source/$OPENSSL_VERSION.tar.gz
 
 # ---- apt-get ----
