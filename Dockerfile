@@ -20,9 +20,6 @@ RUN apt-get update && \
 	vim && \
 	# installed as part of ca-certificates
 	update-ca-certificates && \
-	# remove packages that were auto installed as dependencies by apt-get install
-	#echo `apt-mark showauto` && \
-	#apt-get remove --purge -y `apt-mark showauto` && \
 	rm -rf /var/lib/apt/lists/*
 
 
